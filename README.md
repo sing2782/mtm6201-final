@@ -6,7 +6,7 @@ Overview
 This project is my final assignment for MTM6201 – Web Development.
 The website was built using Bootstrap, a second public CSS library, and custom CSS variables. It contains three pages based on my UX mockups and Figma designs.
 
-Figma link: https://www.figma.com/design/zuKEctiE6o0r3k59SIqd1s/prototype?node-id=0-1&t=KPhH39ZlyGJpqvWT-1
+Figma link: https://www.figma.com/design/j2JeijLVTDr5uek9tahn7T/Untitled?node-id=1-135&t=VLOAdKQuJkoUMCeB-1
 
 Process
 
