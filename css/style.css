@@ -1,0 +1,79 @@
+/* -------------------------------------------------
+   VARIABLES
+------------------------------------------------- */
+:root {
+  --header-bg: #a6bf5a;
+  --hero-bg: #d58153;
+  --yellow-bg: #f4b73d;
+  --brown-bg: #5c371f;
+
+  --text-light: #fff;
+  --text-dark: #000;
+}
+
+/* -------------------------------------------------
+   GLOBAL
+------------------------------------------------- */
+body {
+  font-family: "Roboto", sans-serif;
+  background: #fff;
+  line-height: 1.5;
+}
+
+.navbar-brand {
+  letter-spacing: 2px;
+  font-size: 22px;
+}
+
+/* Active link underline */
+.nav-link.active {
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+/* -------------------------------------------------
+   HERO TEXT OVERLAY
+------------------------------------------------- */
+.hero-text {
+  position: absolute;
+  bottom: 15px;
+  left: 15px;
+  right: 15px;
+  color: white;
+  text-shadow: 0 0 6px rgba(0,0,0,0.5);
+}
+
+/* -------------------------------------------------
+   INFO CARD BACKGROUND
+------------------------------------------------- */
+.info-yellow {
+  background: var(--yellow-bg);
+}
+
+/* -------------------------------------------------
+   CONTACT PAGE BROWN CARD
+------------------------------------------------- */
+.contact-card {
+  background: var(--brown-bg) !important;
+  border-radius: 20px;
+}
+
+.contact-card .form-control {
+  border-radius: 4px;
+}
+
+/* -------------------------------------------------
+   JOIN CARD ROUNDED CORNERS
+------------------------------------------------- */
+.join-rounded {
+  border-radius: 1.5rem;
+}
+
+/* -------------------------------------------------
+   RESPONSIVE FIXES
+------------------------------------------------- */
+@media (max-width: 768px) {
+  .hero-text h1 {
+    font-size: 1.3rem;
+  }
+}
